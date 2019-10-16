@@ -7,7 +7,9 @@
   "repository": "https://github.com/riverstack/movieql",
   "author": "Mr KIM(taewonkim168@gmail.com)",
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "axios": "^0.19.0",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.0"
   },
   "scripts": {
     "start": "nodemon --exec babel-node index.js"
